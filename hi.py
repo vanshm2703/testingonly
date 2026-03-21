@@ -1,7 +1,10 @@
-hi_script.py
-```python
 try:
     print("Hello, World!")
-except Exception as e:
-    print(f"An error occurred: {e}")
-```
+except TypeError as exception:
+    print(f"A TypeError occurred: {exception}")
+except ValueError as exception:
+    print(f"A ValueError occurred: {exception}")
+except ImportError as exception:
+    print(f"An ImportError occurred: {exception}")
+except Exception as exception:
+    print(f"An unexpected error occurred: {exception}")
