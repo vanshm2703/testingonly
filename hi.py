@@ -1,7 +1,9 @@
-hi_script.py
-```python
+print("Hello, World!\n")
 try:
-    print("Hello, World!")
+    pass
+except SystemExit:
+    pass
+except KeyboardInterrupt:
+    pass
 except Exception as e:
     print(f"An error occurred: {e}")
-```
