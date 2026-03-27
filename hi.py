@@ -1,7 +1,11 @@
-hi_script.py
+hi.py
 ```python
 try:
     print("Hello, World!")
-except Exception as e:
+except TypeError as e:
     print(f"An error occurred: {e}")
+except ValueError as e:
+    print(f"An error occurred: {e}")
+except Exception as e:
+    print(f"An unexpected error occurred: {e}")
 ```
