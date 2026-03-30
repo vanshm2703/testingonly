@@ -1,7 +1,7 @@
-hi_script.py
+hi.py
 ```python
 try:
     print("Hello, World!")
-except Exception as e:
+except (RuntimeError, TypeError, NameError) as e:
     print(f"An error occurred: {e}")
 ```
